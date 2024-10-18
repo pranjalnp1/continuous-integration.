@@ -1,11 +1,6 @@
 import unittest
+from main import *
 
-# Assuming the functions are defined as follows
-def addition(a, b):
-    return a + b
-
-def multiplication(a, b):
-    return a * b
 
 # Create a TestCase class to group your test methods
 class TestMathOperations(unittest.TestCase):
